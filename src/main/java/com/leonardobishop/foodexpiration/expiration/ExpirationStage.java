@@ -1,6 +1,6 @@
 package com.leonardobishop.foodexpiration.expiration;
 
-import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.bukkit.ChatColor;
 
 import java.util.ArrayList;

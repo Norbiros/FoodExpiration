@@ -9,7 +9,7 @@ import com.leonardobishop.foodexpiration.foodlevel.ReflectionFoodLevelProvider;
 import com.leonardobishop.foodexpiration.listener.FoodConsumeListener;
 import com.leonardobishop.foodexpiration.listener.InventoryModificationListener;
 import com.leonardobishop.foodexpiration.listener.JoinEventListener;
-import org.apache.commons.lang.time.DateUtils;
+import org.apache.commons.lang3.time.DateUtils;
 import org.bstats.bukkit.MetricsLite;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -25,19 +25,8 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scheduler.BukkitTask;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class FoodExpirationPlugin extends JavaPlugin {
